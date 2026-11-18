@@ -15,12 +15,12 @@ basic/
 
 ## Basic Requirements
 
-* [ ] Import `dataclass` and create a data class named `Creature` using the `@dataclass` decorator.
-* [ ] Give `Creature` the fields `name: str`, `species: str`, `level: int`, and `health: float`.
-* [ ] Create at least **3 different `Creature` objects**, giving each one different values.
-* [ ] Use **dot notation** to display the name, species, level, and health of each creature.
-* [ ] Change the `level` and `health` of one creature using dot notation, then display its updated information.
-* [ ] Make sure changing one creature does not change the values stored in the other creature objects.
+* [x] Import `dataclass` and create a data class named `Creature` using the `@dataclass` decorator.
+* [x] Give `Creature` the fields `name: str`, `species: str`, `level: int`, and `health: float`.
+* [x] Create at least **3 different `Creature` objects**, giving each one different values.
+* [x] Use **dot notation** to display the name, species, level, and health of each creature.
+* [x] Change the `level` and `health` of one creature using dot notation, then display its updated information.
+* [x] Make sure changing one creature does not change the values stored in the other creature objects.
 
 > Fully completing the Basic Requirements earns **16/20 marks, or 80%**.
 
@@ -55,12 +55,12 @@ You can begin by copying your completed Basic `main.py` into the Advanced folder
 
 ## Advanced Requirements
 
-* [ ] Keep the `Creature` data class and all functionality from the Basic activity.
-* [ ] Use `input()` to ask the user for a creature's name, species, level, and health.
-* [ ] Use the entered values to create a new `Creature` object and display its fields using dot notation.
-* [ ] Validate the level so that it must be a valid whole number and validate health so that it must be a valid number.
-* [ ] Use error handling so incorrect numeric input does not crash the program.
-* [ ] If invalid information is entered, explain the problem and allow the user to try again.
+* [x] Keep the `Creature` data class and all functionality from the Basic activity.
+* [x] Use `input()` to ask the user for a creature's name, species, level, and health.
+* [x] Use the entered values to create a new `Creature` object and display its fields using dot notation.
+* [x] Validate the level so that it must be a valid whole number and validate health so that it must be a valid number.
+* [x] Use error handling so incorrect numeric input does not crash the program.
+* [x] If invalid information is entered, explain the problem and allow the user to try again.
 
 ## Advanced Assessment — 4 Marks
 
